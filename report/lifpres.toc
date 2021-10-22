@@ -1,0 +1,12 @@
+\beamer@sectionintoc {1}{The leaky integrate-and-fire model}{7}{0}{1}
+\beamer@subsectionintoc {1}{1}{The single neuron model}{7}{0}{1}
+\beamer@subsectionintoc {1}{2}{Nonlocally coupled network of LIF neurons}{13}{0}{1}
+\beamer@sectionintoc {2}{Methods}{18}{0}{2}
+\beamer@sectionintoc {3}{Chimera states in coupled LIF neurons}{24}{0}{3}
+\beamer@subsectionintoc {3}{1}{Minimum number of neurons and $\Delta \omega $ vs $N$}{24}{0}{3}
+\beamer@subsectionintoc {3}{2}{Varying $\sigma $}{28}{0}{3}
+\beamer@subsectionintoc {3}{3}{Dependence on initial conditions}{31}{0}{3}
+\beamer@sectionintoc {4}{The modified LIF model}{35}{0}{4}
+\beamer@subsectionintoc {4}{1}{Chimeras states in the non-leaky integrate-and-fire model}{35}{0}{4}
+\beamer@subsectionintoc {4}{2}{Varying $\lambda $}{38}{0}{4}
+\beamer@sectionintoc {5}{Conclusions}{42}{0}{5}

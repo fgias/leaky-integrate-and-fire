@@ -1,0 +1,2 @@
+1. chimeras for small N
+2. Δω vs N

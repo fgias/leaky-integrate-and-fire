@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}The leaky integrate-and-fire model}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The single neuron model}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Nonlocally coupled network of LIF neurons}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Methods}{4}{section.3}%
+\contentsline {section}{\numberline {4}Chimera states in coupled LIF neurons}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Minimum number of neurons and $\Delta \omega $ vs $N$}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Varying $\sigma $}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Dependence on initial conditions}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}The modified LIF model}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Chimeras states in the non-leaky integrate-and-fire model}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Varying $\lambda $}{9}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusions}{11}{section.6}%
+\contentsline {section}{\numberline {7}Appendix: Python script}{12}{section.7}%
+\contentsline {section}{References}{14}{lstnumber.-1.139}%

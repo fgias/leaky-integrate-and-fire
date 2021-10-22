@@ -1,0 +1,10 @@
+Results:
+delta_w = 0.30159289474485096
+time_calc = 776.8231291770935
+
+Parameters:
+N = 100
+R = 35
+sigma = 1.6
+time_max = 1000
+seed_num = 769265
