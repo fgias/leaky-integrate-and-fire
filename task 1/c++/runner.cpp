@@ -4,8 +4,8 @@ using namespace std;
 // using namespace std::chrono;
 
 int main() {
-    int N = 500;
-    int R = 175;
+    int N = 1000;
+    int R = 350;
     double sigma = 0.7;
     double mu = 1;
     double u_th = 0.98;
@@ -21,7 +21,7 @@ int main() {
     }
 
     double t = 0;
-    double time_max = 1000;
+    double time_max = 300;
 
     // auto start = high_resolution_clock::now();
 
