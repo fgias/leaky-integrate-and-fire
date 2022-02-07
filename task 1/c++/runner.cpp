@@ -4,8 +4,8 @@ using namespace std;
 // using namespace std::chrono;
 
 int main() {
-    int N = 1500;
-    int R = 525;
+    int N = 2000;
+    int R = 700;
     double sigma = 0.7;
     double mu = 1;
     double u_th = 0.98;
