@@ -1,33 +1,34 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 // using namespace std::chrono;
 
 int main() {
-    int N = 20;
-    int R = 7;
-    float sigma = 0.7;
-    float mu = 1;
-    float u_th = 0.98;
-    float dt = 0.01;
+    int N = 500;
+    int R = 175;
+    double sigma = 0.7;
+    double mu = 1;
+    double u_th = 0.98;
+    double dt = 0.01;
 
-    float u[N];
-    float circles[N];
+    double u[N];
+    double circles[N];
 
     for (int i = 1; i <= N; i++) {
-        float r = rand() % 10;
+        double r = rand() % 10;
         u[i] = r / 10.0;
         circles[i] = 0;
     }
 
-    float t = 0;
-    float time_max = 1000;
+    double t = 0;
+    double time_max = 1000;
 
     // auto start = high_resolution_clock::now();
 
     while (t < time_max) {
         for (int i=0; i<N; i++) {
             u[i] += dt*(mu - u[i]);
-            float coupling = 0;
+            double coupling = 0;
             if (i-R<0){
                 for (int j=((N + ((i-R)%N)) % N); j<N; j++) {
                     coupling += sigma*(u[i]-u[j])/(2*R);                  
@@ -73,6 +74,13 @@ int main() {
     // int b = 5;
 
     // cout << (b + (a%b)) % b << endl;
+
+    ofstream arrayData("u.txt"); // create file
+
+    for(int k=0; k<N; k++)
+    {
+        arrayData << u[k] << endl; // output to txt
+    }
 
     return 0;
 }
