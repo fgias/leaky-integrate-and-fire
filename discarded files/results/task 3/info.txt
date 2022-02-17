@@ -1,4 +1,0 @@
-1. decreasing step size, dt = 0.001
-2. eliminating transients3
-3. dt = 0.005
-4. use dopri5 to speed-up

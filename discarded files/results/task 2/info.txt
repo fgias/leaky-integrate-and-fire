@@ -1,3 +1,0 @@
-1. chimeras in modified LIF model
-du/dt = mu - 0*u + coupling
-= mu + coupling
