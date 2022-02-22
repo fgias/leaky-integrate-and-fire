@@ -4,8 +4,8 @@ using namespace std;
 // using namespace std::chrono;
 
 int main() {
-    int N = 2000;
-    int R = 700;
+    int N = 1000;
+    int R = 350;
     double sigma = 0.7;
     double mu = 1;
     double u_th = 0.98;
@@ -75,11 +75,15 @@ int main() {
 
     // cout << (b + (a%b)) % b << endl;
 
-    ofstream arrayData("u.txt"); // create file
+    ofstream arrayDataU("u.txt"); // create file
+    ofstream arrayDataW("w.txt");
+
 
     for(int k=0; k<N; k++)
     {
-        arrayData << u[k] << endl; // output to txt
+        arrayDataU << u[k] << endl; // output to txt
+        arrayDataW << circles[k]/time_max << endl; // output to txt
+
     }
 
     return 0;
