@@ -1,2 +1,13 @@
 .DS_Store
 .vscode/*
+.vscode/
+.ipynb_checkpoints
+
+*.log
+*.aux
+*.synctex.gz
+*.toc
+*.out
+*.pytxcode
+*.nav
+*.snm
