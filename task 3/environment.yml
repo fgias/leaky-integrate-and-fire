@@ -1,0 +1,38 @@
+name: lif
+channels:
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h620ffc9_4
+  - ca-certificates=2023.01.10=hca03da5_0
+  - certifi=2022.12.7=py310hca03da5_0
+  - libffi=3.4.2=hca03da5_6
+  - ncurses=6.4=h313beb8_0
+  - openssl=1.1.1s=h1a28f6b_0
+  - pip=22.3.1=py310hca03da5_0
+  - python=3.10.9=hc0d8a6c_0
+  - readline=8.2=h1a28f6b_0
+  - setuptools=65.6.3=py310hca03da5_0
+  - sqlite=3.40.1=h7a7dc30_0
+  - tk=8.6.12=hb8d0fd4_0
+  - tzdata=2022g=h04d1e81_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.10=h80987f9_1
+  - zlib=1.2.13=h5a0b063_0
+  - pip:
+      - charset-normalizer==2.1.1
+      - contourpy==1.0.7
+      - cycler==0.11.0
+      - fonttools==4.38.0
+      - idna==3.4
+      - kiwisolver==1.4.4
+      - matplotlib==3.6.3
+      - notify-run==0.0.15
+      - numpy==1.24.1
+      - packaging==23.0
+      - pillow==9.4.0
+      - pyqrcode==1.2.1
+      - python-dateutil==2.8.2
+      - requests==2.28.1
+      - six==1.16.0
+      - urllib3==1.26.14
+prefix: /Users/fgias/opt/anaconda3/envs/lif
